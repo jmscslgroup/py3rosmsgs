@@ -1,0 +1,5 @@
+numpy
+matplotlib>=3.0.3
+pyserial>=3.4
+pathlib
+gnupg

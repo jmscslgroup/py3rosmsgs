@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: py3rosmsgs
+Version: 1.13
+Summary: Python 3 Port of ROS 1.0 messages from genpy generated python classes and pre-compiled binaries.
+Home-page: UNKNOWN
+Author: Rahul Bhadani
+Author-email: rahulbhadani@email.arizona.edu
+License: UNKNOWN
+Description: # py3rosmsgs
+        Python 3.0 port of ROS MSGS obtained from genpy-generated ros_msgs in ROS 1.0 Melodic
+        
+        See http://wiki.ros.org/rosmsg on how to use ros messages in python.
+        
+        Maintainer: Rahul Bhadani
+        
+        Maintainer Email: rahulbhadani@email.arizona.edu
+        
+Keywords: autonomous vehicle,ACC,adaptive cruise control,robotics,ros,visualization
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Framework :: Robot Framework
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
