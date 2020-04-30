@@ -8,7 +8,7 @@ def readme():
 
 setuptools.setup(
     name='py3rosmsgs',
-    version='1.13',
+    version='1.16',
     author="Rahul Bhadani",
     author_email="rahulbhadani@email.arizona.edu",
     description="Python 3 Port of ROS 1.0 messages from genpy generated python classes and pre-compiled binaries.",
@@ -18,8 +18,8 @@ setuptools.setup(
     packages=setuptools.find_packages(),
     install_requires=[
         'numpy',
-        'matplotlib>=3.0.3',
-        'pyserial>=3.4',
+        'matplotlib',
+        'pyserial',
         'pathlib',
         'gnupg'
         ],
