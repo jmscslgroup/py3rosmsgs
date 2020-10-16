@@ -71,9 +71,9 @@ try:
     import roslz4
     found_lz4 = True
 except ImportError:
-    rospy.logwarn(
-        'Failed to load Python extension for LZ4 support. '
-        'LZ4 compression will not be available.')
+    #rospy.logwarn(
+    #    'Failed to load Python extension for LZ4 support. '
+    #    'LZ4 compression will not be available.')
     found_lz4 = False
 
 class ROSBagException(Exception):
